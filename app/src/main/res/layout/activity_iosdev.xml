@@ -1,0 +1,695 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:background="@color/Lightblue"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IOSDev">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/backios"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="left|top"
+                tools:src="@drawable/arrow1" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="IOS App Devlopment"
+                android:textColor="@color/Mixblue"
+                android:textStyle="bold"
+                android:textSize="40dp"
+                android:layout_margin="40dp"/>
+            <ImageView
+                android:id="@+id/imageios1"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                tools:src="@drawable/ios1"
+                android:layout_gravity="center"
+                android:visibility="visible"
+                android:layout_margin="20dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="SwiftUI"
+                android:textColor="@color/Mixblue"
+                android:textStyle="bold"
+                android:textSize="40dp"
+                android:layout_margin="40dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Start building apps with SwiftUI, a declarative framework that developers use to compose the layout and behavior of multiplatform apps. You’ll build Scrumdinger, an app that manages daily meetings."
+                android:textColor="@color/magenta"
+                android:textSize="14dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textStyle="italic"/>
+            <GridLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:columnCount="1"
+                android:padding="10dp"
+                android:rowCount="4">
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top|right"
+                    android:gravity="center"
+                    android:text="SwiftUI essentials"
+                    android:textColor="@color/Mixblue"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:layout_margin="5dp"/>
+
+
+                <GridLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:columnCount="2"
+
+                android:rowCount="1">
+                <ImageView
+                    android:id="@+id/imageios2"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="right|center"
+
+                    android:visibility="visible"
+                    tools:src="@drawable/ios2" />
+
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_margin="10dp"
+                    android:gravity="right|center"
+                    android:text="Create an adaptive user interface for Scrumdinger with the basic building blocks of SwiftUI. Add and modify views, and refine the app’s accessibility."
+                    android:textColor="@color/magenta"
+                    android:textSize="14dp"
+                    android:textStyle="italic" />
+
+
+            </GridLayout>
+                <TextView
+                    android:id="@+id/link1"
+                    android:layout_width="250dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="left"
+                    android:text="Getting started with Scrumdinger"
+                    android:textColor="@color/blue"
+                    android:textSize="14dp"
+                    android:textStyle="italic"
+                    />
+                <TextView
+                    android:id="@+id/link2"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="left"
+                    android:text="Displaying data in a list"
+                    android:textColor="@color/blue"
+                    android:textSize="14dp"
+                    android:textStyle="italic"
+                    />
+            </GridLayout>
+            <GridLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:columnCount="1"
+                android:padding="10dp"
+                android:rowCount="4">
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|left"
+                android:gravity="center"
+                android:text="Views"
+
+                android:textColor="@color/Mixblue"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_margin="5dp"/>
+            <GridLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:columnCount="2"
+                android:rowCount="1">
+
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="left"
+                    android:layout_margin="10dp"
+                    android:text="Learn about common language patterns as you build the view hierarchy for Scrumdinger and display the contents of a collection."
+                    android:textColor="@color/magenta"
+                    android:textSize="14dp"
+                    android:textStyle="italic" />
+                <ImageView
+                    android:id="@+id/imageios3"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="right|center"
+                    android:visibility="visible"
+                    tools:src="@drawable/ios3" />
+
+            </GridLayout>
+                <TextView
+                    android:id="@+id/link3"
+                    android:layout_width="200dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:gravity="left"
+                    android:text="Creating a card view"
+                    android:textColor="@color/blue"
+                    android:textSize="14dp"
+                    android:textStyle="italic"
+                    />
+                <TextView
+                    android:id="@+id/link4"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:gravity="left"
+                    android:text="Displaying data in a list"
+                    android:textColor="@color/blue"
+                    android:textSize="14dp"
+                    android:textStyle="italic"
+                    />
+            </GridLayout>
+            <GridLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:columnCount="1"
+                android:padding="10dp"
+                android:rowCount="4">
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top|right"
+                    android:gravity="center"
+                    android:text="Navigation and modal presentation"
+                    android:textColor="@color/Mixblue"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:layout_margin="5dp"/>
+
+
+                <GridLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:columnCount="2"
+
+                    android:rowCount="1">
+                    <ImageView
+                        android:id="@+id/imageios4"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_gravity="right|center"
+
+                        android:visibility="visible"
+                        tools:src="@drawable/ios4" />
+
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:layout_margin="10dp"
+                        android:gravity="right"
+                        android:text="Build a navigation hierarchy for your app, and present a modal view with its own navigation stack. Learn the fundamentals of state management. And apply that knowledge to start building an editable view."
+                        android:textColor="@color/magenta"
+                        android:textSize="14dp"
+                        android:textStyle="italic" />
+
+
+                </GridLayout>
+                <TextView
+                    android:id="@+id/link5"
+                    android:layout_width="250dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="left"
+                    android:text="Creating a navigation hierarchy"
+                    android:textColor="@color/blue"
+                    android:textSize="14dp"
+                    android:textStyle="italic"
+                    />
+                <TextView
+                    android:id="@+id/link6"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="left"
+                    android:text="Managing data flow between views"
+                    android:textColor="@color/blue"
+                    android:textSize="14dp"
+                    android:textStyle="italic"
+                    />
+                <TextView
+                    android:id="@+id/link7"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="left"
+                    android:text="Creating the edit view"
+                    android:textColor="@color/blue"
+                    android:textSize="14dp"
+                    android:textStyle="italic"
+                    />
+            </GridLayout>
+            <GridLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:columnCount="1"
+                android:padding="10dp"
+                android:rowCount="4">
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top|left"
+                    android:gravity="center"
+                    android:text="Passing data"
+
+                    android:textColor="@color/Mixblue"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:layout_margin="5dp"/>
+                <GridLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:columnCount="2"
+                    android:rowCount="1">
+
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="left"
+                        android:layout_margin="10dp"
+                        android:text="Create a source of truth for your app’s data. And use bindings to keep data in sync between views."
+                        android:textColor="@color/magenta"
+                        android:textSize="14dp"
+                        android:textStyle="italic" />
+                    <ImageView
+                        android:id="@+id/imageios5"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_gravity="right|center"
+                        android:visibility="visible"
+                        tools:src="@drawable/ios5" />
+
+                </GridLayout>
+                <TextView
+                    android:id="@+id/link8"
+                    android:layout_width="200dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:gravity="left"
+                    android:text="Passing data with bindings"
+                    android:textColor="@color/blue"
+                    android:textSize="14dp"
+                    android:textStyle="italic"
+                    />
+
+            </GridLayout>
+            <GridLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:columnCount="1"
+                android:padding="10dp"
+                android:rowCount="4">
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top|right"
+                    android:gravity="center"
+                    android:text="State management"
+                    android:textColor="@color/Mixblue"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:layout_margin="5dp"/>
+
+
+                <GridLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:columnCount="2"
+
+                    android:rowCount="1">
+                    <ImageView
+                        android:id="@+id/imageios6"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_gravity="right|center"
+
+                        android:visibility="visible"
+                        tools:src="@drawable/ios6" />
+
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:layout_margin="10dp"
+                        android:gravity="right"
+                        android:text="Learn how SwiftUI manages state for reference types. Make your app respond to changes dynamically."
+                        android:textColor="@color/magenta"
+                        android:textSize="14dp"
+                        android:textStyle="italic" />
+
+
+                </GridLayout>
+                <TextView
+                    android:id="@+id/link9"
+                    android:layout_width="250dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="left"
+                    android:text="Making classes observable"
+                    android:textColor="@color/blue"
+                    android:textSize="14dp"
+                    android:textStyle="italic"
+                    />
+                <TextView
+                    android:id="@+id/link10"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="left"
+                    android:text="Responding to events"
+                    android:textColor="@color/blue"
+                    android:textSize="14dp"
+                    android:textStyle="italic"
+                    />
+                <TextView
+                    android:id="@+id/link11"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="left"
+                    android:text="Managing state and life cycle"
+                    android:textColor="@color/blue"
+                    android:textSize="14dp"
+                    android:textStyle="italic"
+                    />
+                <TextView
+                    android:id="@+id/link12"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="left"
+                    android:text="Updating app data"
+                    android:textColor="@color/blue"
+                    android:textSize="14dp"
+                    android:textStyle="italic"
+                    />
+            </GridLayout>
+            <GridLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:columnCount="1"
+                android:padding="10dp"
+                android:rowCount="4">
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top|left"
+                    android:gravity="center"
+                    android:text="Persistence and concurrency"
+
+                    android:textColor="@color/Mixblue"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:layout_margin="5dp"/>
+                <GridLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:columnCount="2"
+                    android:rowCount="1">
+
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="left"
+                        android:layout_margin="10dp"
+                        android:text="Keep data safe when your app closes by saving scrums to the file system. Learn how to define and call asynchronous code. And handle errors on asynchronous calls."
+                        android:textColor="@color/magenta"
+                        android:textSize="14dp"
+                        android:textStyle="italic" />
+                    <ImageView
+                        android:id="@+id/imageios7"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_gravity="right|center"
+                        android:visibility="visible"
+                        tools:src="@drawable/ios7" />
+
+                </GridLayout>
+                <TextView
+                    android:id="@+id/link13"
+                    android:layout_width="200dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:gravity="left"
+                    android:text="Adopting Swift concurrency"
+                    android:textColor="@color/blue"
+                    android:textSize="14dp"
+                    android:textStyle="italic"
+                    />
+                <TextView
+                    android:id="@+id/link14"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:gravity="left"
+                    android:text="Persisting data"
+                    android:textColor="@color/blue"
+                    android:textSize="14dp"
+                    android:textStyle="italic"
+                    />
+                <TextView
+                    android:id="@+id/link15"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:gravity="left"
+                    android:text="Adopting new API features"
+                    android:textColor="@color/blue"
+                    android:textSize="14dp"
+                    android:textStyle="italic"
+                    />
+                <TextView
+                    android:id="@+id/link16"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:gravity="left"
+                    android:text="Handling errors"
+                    android:textColor="@color/blue"
+                    android:textSize="14dp"
+                    android:textStyle="italic"
+                    />
+
+            </GridLayout>
+            <GridLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:columnCount="1"
+                android:padding="10dp"
+                android:rowCount="4">
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top|right"
+                    android:gravity="center"
+                    android:text="Drawing"
+                    android:textColor="@color/Mixblue"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:layout_margin="5dp"/>
+
+
+                <GridLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:columnCount="2"
+
+                    android:rowCount="1">
+                    <ImageView
+                        android:id="@+id/imageios8"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_gravity="right|center"
+
+                        android:visibility="visible"
+                        tools:src="@drawable/ios8" />
+
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:layout_margin="10dp"
+                        android:gravity="right|center"
+                        android:text="Define shapes with SwiftUI geometry tools. Draw segments to represent the speaking time for scrum participants. And fill in a ring that shows the meeting progress."
+                        android:textColor="@color/magenta"
+                        android:textSize="14dp"
+                        android:textStyle="italic" />
+
+
+                </GridLayout>
+                <TextView
+                    android:id="@+id/link17"
+                    android:layout_width="250dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="Drawing the timer view       "
+                    android:textColor="@color/blue"
+                    android:textSize="14dp"
+                    android:textStyle="italic"
+                    />
+
+            </GridLayout>
+            <GridLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:columnCount="1"
+                android:padding="10dp"
+                android:rowCount="4">
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top|left"
+                    android:gravity="center"
+                    android:text="Recording audio"
+
+                    android:textColor="@color/Mixblue"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:layout_margin="5dp"/>
+                <GridLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:columnCount="2"
+                    android:rowCount="1">
+
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="left"
+                        android:layout_margin="10dp"
+                        android:text="Respect user privacy by requesting access to their hardware or sensitive data. Record audio and transcribe it to text."
+                        android:textColor="@color/magenta"
+                        android:textSize="14dp"
+                        android:textStyle="italic" />
+                    <ImageView
+                        android:id="@+id/imageios9"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_gravity="right|center"
+                        android:visibility="visible"
+                        tools:src="@drawable/ios9" />
+
+                </GridLayout>
+                <TextView
+                    android:id="@+id/link18"
+                    android:layout_width="250dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:gravity="left"
+                    android:text="Examining data flow in Scrumdinger"
+                    android:textColor="@color/blue"
+                    android:textSize="14dp"
+                    android:textStyle="italic"
+                    />
+                <TextView
+                    android:id="@+id/link19"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:gravity="left"
+                    android:text="Transcribing speech to text"
+                    android:textColor="@color/blue"
+                    android:textSize="14dp"
+                    android:textStyle="italic"
+                    />
+                <TextView
+                    android:id="@+id/link20"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:gravity="left"
+                    android:text="Finding more resources"
+                    android:textColor="@color/blue"
+                    android:textSize="14dp"
+                    android:textStyle="italic"
+                    />
+
+
+            </GridLayout>
+            <Button
+                android:id="@+id/btncallios"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:backgroundTint="@color/magenta"
+                android:layout_gravity="center"
+                android:text="Contact Us"
+                android:textColor="#ffffff"
+                android:textSize="16sp"
+                android:layout_marginBottom="50dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

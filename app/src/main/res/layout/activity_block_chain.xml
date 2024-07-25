@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@color/Lightblue"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BlockChain">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/backblock"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="left|top"
+                tools:src="@drawable/arrow1" />
+
+            <TextView
+                android:layout_width="299dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="40dp"
+                android:gravity="center"
+                android:text="Block Chain"
+                android:textColor="@color/Mixblue"
+                android:textSize="40dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="This fundamental course about blockchain is for anyone, with or without tech skills who wants to learn about how the technology can be used to solve problems. The course covers the main concepts of blockchain, the good things about it, and possible challenges. You will also be shown real-life examples of how blockchain is used by businesses today to solve problems."
+                android:textColor="@color/magenta"
+                android:textSize="14dp"
+                android:textStyle="italic" />
+
+            <ImageView
+                android:id="@+id/imageblockch"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                android:visibility="visible"
+                tools:src="@drawable/blockch" />
+
+            <Button
+                android:id="@+id/btntrain"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Start Learning"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="@color/magenta"
+                android:textColor="@color/white"/>
+            <TextView
+                android:layout_width="299dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                android:gravity="center"
+                android:text="You Will Learn"
+                android:textColor="@color/Mixblue"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <GridLayout
+                android:layout_width="394dp"
+                android:layout_height="174dp"
+                android:layout_gravity="center"
+                android:columnCount="6"
+                android:padding="10dp"
+                android:rowCount="1">
+
+                <ImageView
+                    android:id="@+id/imagetik1"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_row="0"
+                    android:layout_column="0"
+                    android:layout_gravity="left"
+                    android:layout_margin="5dp"
+                    android:visibility="visible"
+                    tools:src="@drawable/tik" />
+
+                <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:layout_row="0"
+                    android:layout_column="1"
+                    android:layout_gravity="center|top"
+                    android:gravity="center"
+                    android:text="Learn the basic ideas behind blockchain and compare it to other technologies like databases and ledgers"
+                    android:textColor="@color/magenta"
+                    android:textSize="14dp"
+                    android:textStyle="italic" />
+
+                <ImageView
+                    android:id="@+id/imagetik2"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_row="0"
+                    android:layout_column="2"
+                    android:layout_gravity="center|top"
+                    android:layout_margin="5dp"
+                    android:visibility="visible"
+                    tools:src="@drawable/tik" />
+
+                <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:layout_row="0"
+                    android:layout_column="3"
+                    android:layout_gravity="top"
+                    android:gravity="center"
+                    android:text="Find out how blockchain can be used to solve business problems and look at cases from different angles"
+                    android:textColor="@color/magenta"
+                    android:textSize="14dp"
+                    android:textStyle="italic" />
+
+                <ImageView
+                    android:id="@+id/imagetik3"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_row="0"
+                    android:layout_column="4"
+                    android:layout_gravity="center|top"
+                    android:layout_margin="5dp"
+                    android:visibility="visible"
+                    tools:src="@drawable/tik" />
+
+                <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:layout_row="0"
+                    android:layout_column="5"
+                    android:layout_gravity="top"
+                    android:gravity="center"
+                    android:text="You will get a dive into Amazon Managed Blockchain: Find out how it works and its main benefits"
+                    android:textColor="@color/magenta"
+                    android:textSize="14dp"
+                    android:textStyle="italic" />
+
+            </GridLayout>
+
+            <TextView
+                android:layout_width="299dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_margin="20dp"
+                android:text="Who is it for"
+                android:textColor="@color/Mixblue"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <GridLayout
+                android:layout_width="394dp"
+                android:layout_height="210dp"
+                android:layout_gravity="center"
+
+                android:padding="30dp"
+                android:rowCount="1">
+
+
+                <TextView
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:layout_row="0"
+                    android:layout_column="1"
+                    android:layout_gravity="center|top"
+                    android:gravity="center"
+                    android:text="Application developers responsible for implementing blockchain applications that meet the required business and technical specifications"
+                    android:textColor="@color/magenta"
+                    android:textSize="14dp"
+                    android:textStyle="italic" />
+
+
+                <TextView
+                    android:layout_width="110dp"
+                    android:layout_height="180dp"
+                    android:layout_row="0"
+                    android:layout_column="3"
+                    android:layout_gravity="top"
+                    android:gravity="center"
+                    android:text="Solutions architects responsible for designing blockchain applications that follow open standards and best practices for architecture design, performance, reliability, and security"
+                    android:textColor="@color/magenta"
+                    android:textSize="14dp"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:layout_row="0"
+                    android:layout_column="5"
+                    android:layout_gravity="top"
+                    android:gravity="center"
+                    android:text="Business leaders responsible for evaluating and approving blockchain initiatives at their organizations"
+                    android:textColor="@color/magenta"
+                    android:textSize="14dp"
+                    android:textStyle="italic" />
+
+            </GridLayout>
+
+            <Button
+                android:id="@+id/btncallblock"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:backgroundTint="@color/magenta"
+                android:layout_gravity="center"
+                android:text="Contact Us"
+                android:textColor="#ffffff"
+                android:textSize="16sp"
+                android:layout_marginBottom="50dp"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

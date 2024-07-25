@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@color/Lightblue"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AndroidDev">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/backand"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="left|top"
+                tools:src="@drawable/arrow1" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Android Development"
+                android:textColor="@color/Mixblue"
+                android:textStyle="bold"
+                android:textSize="40dp"
+                android:layout_margin="40dp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Android operating system is the largest installed base among various mobile platforms across the globe. Hundreds of millions of mobile devices are powered by Android in more than 190 countries of the world. It conquered around 71% of the global market share by the end of 2021, and this trend is growing bigger every other day. The company named Open Handset Alliance developed Android for the first time that is based on the modified version of the Linux kernel and other open-source software. Google sponsored the project at initial stages and in the year 2005, it acquired the whole company. In September 2008, the first Android-powered device was launched in the market. Android dominates the mobile OS industry because of the long list of features it provides. It’s user-friendly, has huge community support, provides a greater extent of customization, and a large number of companies build Android-compatible smartphones. As a result, the market observes a sharp increase in the demand for developing Android mobile applications, and with that companies need smart developers with the right skill set. At first, the purpose of Android was thought of as a mobile operating system. However, with the advancement of code libraries and its popularity among developers of the divergent domain, Android becomes an absolute set of software for all devices like tablets, wearables, set-top boxes, smart TVs, notebooks, etc."
+                android:textColor="@color/magenta"
+                android:textSize="14dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textStyle="italic"/>
+
+            <ImageView
+                android:id="@+id/imageand1"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                tools:src="@drawable/android"
+                android:layout_gravity="center"
+                android:visibility="visible"
+                android:layout_margin="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Features of Android"
+                android:textColor="@color/Mixblue"
+                android:textSize="24dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_margin="20dp"/>
+            <TextView
+                android:layout_width="319dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Android is a powerful open-source operating system that open-source provides immense features and some of these are listed below. "
+                android:textColor="@color/magenta"
+                android:textSize="14dp"
+                android:textStyle="italic" />
+            <ImageView
+                android:id="@+id/imageand2"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                tools:src="@drawable/featuresand"
+                android:layout_gravity="center"
+                android:visibility="visible"
+                android:layout_margin="20dp"/>
+            <TextView
+                android:layout_width="319dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Android Open Source Project so we can customize the OS based on our requirements.
+Android supports different types of connectivity for GSM, CDMA, Wi-Fi, Bluetooth, etc. for telephonic conversation or data transfer.
+Using wifi technology we can pair with other devices while playing games or using other applications.
+It contains multiple APIs to support location-tracking services such as GPS.
+We can manage all data storage-related activities by using the file manager."
+                android:textColor="@color/magenta"
+                android:textSize="14dp"
+                android:textStyle="italic" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Programming Languages used in Developing Android Applications"
+                android:textColor="@color/Mixblue"
+                android:textSize="24dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_margin="20dp"/>
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:text="1. Java 2. Kotlin"
+                android:textColor="@color/magenta"
+                android:textSize="14dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textStyle="italic"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Some Important Links on Android Development"
+                android:textColor="@color/Mixblue"
+                android:textSize="24dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_margin="20dp"/>
+            <TextView
+                android:id="@+id/link1"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:text="  Introduction to Android Development"
+                android:textColor="@color/blue"
+                android:textSize="14dp"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:textStyle="italic"
+                />
+
+            <TextView
+                android:id="@+id/link2"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:text="  History of Android"
+                android:textColor="@color/blue"
+                android:textSize="14dp"
+                android:textStyle="italic" />
+            <TextView
+                android:id="@+id/link3"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:text="  Best Way to Become Android Developer – A  Complete Roadmap"
+                android:textColor="@color/blue"
+                android:textSize="14dp"
+                android:textStyle="italic" />
+            <TextView
+                android:id="@+id/link4"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:text="  Android App Development Fundamentals for Beginners"
+                android:textColor="@color/blue"
+                android:textSize="14dp"
+                android:textStyle="italic" />
+            <TextView
+                android:id="@+id/link5"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:text="  Android Studio Tutorial"
+                android:textColor="@color/blue"
+                android:textSize="14dp"
+                android:textStyle="italic"
+                />
+            <Button
+                android:id="@+id/btncalland"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:backgroundTint="@color/magenta"
+                android:layout_gravity="center"
+                android:text="Contact Us"
+                android:textColor="#ffffff"
+                android:textSize="16sp"
+                android:layout_marginBottom="50dp"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

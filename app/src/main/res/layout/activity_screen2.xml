@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/Mixblue"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:rowCount="3"
+        android:padding="25dp"
+        android:layout_gravity="center">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardWeb"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_margin="8dp"
+            android:backgroundTint="@color/Lightblue"
+            app:cardCornerRadius="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Web Development"
+                android:textColor="#7f0b32"
+                android:textSize="16sp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardAnd"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_margin="8dp"
+            app:cardCornerRadius="20dp"
+            android:backgroundTint="@color/Lightblue">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Android Development"
+                android:textColor="#7f0b32"
+                android:textSize="16sp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardML"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_margin="8dp"
+            app:cardCornerRadius="20dp"
+            android:backgroundTint="@color/Lightblue">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Machine Learning"
+                android:textColor="#7f0b32"
+                android:textSize="16sp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardIOS"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_margin="8dp"
+            app:cardCornerRadius="20dp"
+            android:backgroundTint="@color/Lightblue">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="iOS App Development"
+                android:textColor="#7f0b32"
+                android:textSize="16sp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardBlock"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_margin="8dp"
+            app:cardCornerRadius="20dp"
+            android:backgroundTint="@color/Lightblue">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Block Chain"
+                android:textColor="#7f0b32"
+                android:textSize="16sp" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardDB"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:layout_margin="8dp"
+            app:cardCornerRadius="20dp"
+            android:backgroundTint="@color/Lightblue">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="DataBase"
+                android:textColor="#7f0b32"
+                android:textSize="16sp" />
+        </androidx.cardview.widget.CardView>
+    </GridLayout>
+
+    <Button
+        android:id="@+id/btncall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="@color/magenta"
+        android:paddingLeft="32dp"
+        android:paddingRight="32dp"
+        android:text="Contact Us"
+        android:textColor="#ffffff"
+        android:textSize="16sp" />
+</LinearLayout>

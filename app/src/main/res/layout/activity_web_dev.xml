@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@color/Lightblue"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WebDev">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/backweb"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_gravity="left|top"
+                tools:src="@drawable/arrow1" />
+
+            <TextView
+                android:layout_width="299dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="40dp"
+                android:gravity="center"
+                android:text="Web Development"
+                android:textColor="@color/Mixblue"
+                android:textSize="40dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Web development refers to the creating, building, and maintaining of websites. It includes aspects such as web design, web publishing, web programming, and database management. It is the creation of an application that works over the internet i.e. websites."
+                android:textColor="@color/magenta"
+                android:textSize="14dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textStyle="italic"/>
+
+            <ImageView
+                android:id="@+id/imageWeb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:src="@drawable/web"
+                android:layout_gravity="center"
+                android:visibility="visible"
+                android:layout_margin="20dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The word Web Development is made up of two words, that is:"
+                android:textColor="@color/magenta"
+                android:textSize="14dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textStyle="italic"/>
+
+            <TextView
+                android:layout_width="319dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="           Web: It refers to websites, web pages or anything that works over the internet."
+                android:textColor="@color/magenta"
+                android:textSize="14dp"
+                android:textStyle="italic" />
+            <TextView
+                android:layout_width="319dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="       Development: It refers to building the application from scratch."
+                android:textColor="@color/magenta"
+                android:textSize="14dp"
+                android:textStyle="italic" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Web Development can be classified into two ways:"
+                android:textColor="@color/Mixblue"
+                android:textSize="24dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_margin="20dp"/>
+            <Button
+                android:id="@+id/btnfront"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="FrontEnd Development"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:backgroundTint="@color/magenta"
+                android:textColor="@color/white"/>
+            <Button
+                android:id="@+id/btnback"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BackEnd Development"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:backgroundTint="@color/magenta"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Some Important Links on Web Development"
+                android:textColor="@color/Mixblue"
+                android:textSize="24dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_margin="20dp"/>
+            <TextView
+                android:id="@+id/link1"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:text="  Begin Web Development with a Head Start"
+                android:textColor="@color/blue"
+                android:textSize="14dp"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:textStyle="italic"
+                />
+
+            <TextView
+                android:id="@+id/link2"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:text="  Why do you need a Responsive Website?"
+                android:textColor="@color/blue"
+                android:textSize="14dp"
+                android:textStyle="italic" />
+            <TextView
+                android:id="@+id/link3"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:text="  Top 10 Frameworks for Web Applications"
+                android:textColor="@color/blue"
+                android:textSize="14dp"
+                android:textStyle="italic" />
+            <TextView
+                android:id="@+id/link4"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:text="  The Future of Web Development                "
+                android:textColor="@color/blue"
+                android:textSize="14dp"
+                android:textStyle="italic" />
+            <TextView
+                android:id="@+id/link5"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:text="  Top 10 Tools That Every Web Developer Must Try Once"
+                android:textColor="@color/blue"
+                android:textSize="14dp"
+                android:textStyle="italic"
+                />
+            <Button
+                android:id="@+id/btncall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:backgroundTint="@color/magenta"
+                android:layout_gravity="center"
+                android:text="Contact Us"
+                android:textColor="#ffffff"
+                android:textSize="16sp"
+                android:layout_marginBottom="50dp"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
